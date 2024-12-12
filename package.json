@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "date-fns": "^4.1.0",
+    "react-bootstrap": "^2.10.6",
+    "uuid": "^11.0.3"
+  }
+}

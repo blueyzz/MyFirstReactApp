@@ -1,0 +1,21 @@
+﻿#root {
+    margin: 0 auto;
+}
+
+
+table {
+    width: auto;
+    margin-top: 1rem;
+    max-width: 700px;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+tr td span {
+    margin-right: 10px;
+}
+
+div h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
