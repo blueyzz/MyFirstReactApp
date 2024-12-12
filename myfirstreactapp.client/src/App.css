@@ -2,7 +2,6 @@
     margin: 0 auto;
 }
 
-
 table {
     width: auto;
     margin-top: 1rem;
@@ -15,7 +14,7 @@ tr td span {
     margin-right: 10px;
 }
 
-div h2 {
+div h2, .addNote {
     margin-top: 2rem;
     margin-left: 1rem;
 }

@@ -39,8 +39,19 @@ export const NoteWebAPI: React.FC = ({ children }) => {
         localStorage.setItem('notes', JSON.stringify(notes));
     }
 
+    const addNote = (title: string, content: string) => {
+        const newNote: INote = {
+            id: uuidv4(),
+            title,
+            content,
+            createdTime: new Date()
+        };
+        const updatedNotes = [...viewNotes, newNote];
+        saveNotes(updatedNotes);
+    }
+
     return (
-        <NoteContext.Provider value={{ viewNotes }}>
+        <NoteContext.Provider value={{ viewNotes, addNote }}>
             {children}
         </NoteContext.Provider>
     );
